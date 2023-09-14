@@ -262,7 +262,8 @@ footer .copywrite span {
 
 @media (max-width:1200px) {
     header {
-        margin-left: 100px;
+        padding-left: 101px;
+        padding-right: 10px;
     }
     .desktop-1 {
         justify-content: space-between;
@@ -285,9 +286,9 @@ footer .copywrite span {
     }
 }
 @media (max-width:767px) {
-    header,
-    footer {
-        margin-left: 73px;
+    header {
+        padding-left: 72px;
+        padding-right: 25px;
     }
     .desktop-1 {
         width: 1143px;
@@ -297,8 +298,14 @@ footer .copywrite span {
     .work {
         margin-left: 85px;
     }
+    footer {
+        padding-right: 25px;
+    }
 }
 @media (max-width:500px) {
+    header {
+        padding-left: 20px;
+    }
     .conteiner {
         display: flex;
         justify-content: space-evenly;
