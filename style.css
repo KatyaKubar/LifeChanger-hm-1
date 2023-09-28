@@ -73,6 +73,11 @@ header {
     background: var(--Gradient-Heading, linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%));
     border-radius: 10px;
 }
+.header-social a svg,
+.footer-top a svg {
+    width: 30px;
+    height: 30px;
+}
 .header-social a:hover,
 .footer-social a:hover {
     fill:  #13B0F5;
@@ -198,7 +203,7 @@ header {
     margin-bottom: 62px;
 }
 .projects-img img {
-    width: 375px;
+    width: 373px;
     height: 260px;
     border-radius: 20px 20px 0px 0px;   
 }
@@ -302,8 +307,198 @@ footer {
     gap: 52px;
     margin-left: -38px;
 }
-
+/* */
+@media (max-width:1400px) {
+    header {
+    padding: 27px 105px 0 65px;
+  }
+  .header-item {
+    margin-left: 100px;
+  }
+  footer {
+    width: 100%;
+    padding: 27px 89px 0 80px;
+  }
+  .footer-top .tel {
+    padding-left: 395px;
+  }
+  .info-mail {
+    margin: 0 37% 14%;
+  }
+  .projects-list {
+    margin: 0 99px 0 76px;
+  }
+  .first-img {
+    margin: 120px 0px 78px -30px;
+  }
+  .second-img {
+    margin-right: 9px;
+    margin-left: -29px;
+  }
+}
 @media (max-width:1200px) {
-
-
+    header {
+    padding: 27px 44px 0 87px;
+  }
+  .header-item {
+    margin-left: 60px;
+    font-size: 18px;
+    gap: 25px;
+  }
+  .greeting {
+    margin-top: 258px;
+  }
+  .greeting-text {
+    font-size: 48px;
+  }
+  .greeting-foto img {
+    width: 300px;
+    height: 300px;
+  }
+  .about {
+    margin: 124px 401px 0 86px;
+  }
+  .first-img {
+    margin: 120px -7px 78px -1px;
+  }
+  .second-img {
+    margin-right: -7px;
+    margin-left: -6px;
+  }
+  .info h2 {
+    font-size: 52px;
+  }
+  .info a {
+    font-size: 54px;
+  }
+   footer {
+    padding: 27px 29px 0 80px;
+  }
+  .footer-top {
+    padding-bottom: 23px;
+  }
+  .footer-bottom {
+    margin-top: 20px;
+  }
+  .footer-item {
+    font-size: 16px;
+    gap: 29px;
+  }
+  .footer-bottom p {
+    font-size: 16px;
+  }
+  .footer-top .tel {
+    padding-left: 225px;
+    font-size: inherit;
+  }
+}
+@media (max-width:975px) {
+    header {
+       padding: 27px 22px 0 49px;
+   }
+   header img,
+   footer img {
+       width: 85px;
+       height: 55px;
+   }
+   .header-item {
+       font-size: 16px;
+       gap: 16px;
+       margin-left: 34px;
+   }
+   .header-social a svg, 
+   .footer-top a svg {
+      width: 27px;
+      height: 27px;
+   }
+   .greeting {
+      margin-top: 215px;
+   }
+   .greeting-text {
+      font-size: 40px;
+   }
+   .greeting-foto img {
+      width: 230px;
+      height: 230px;
+   }
+   .about {
+      margin: 89px 154px 0 50px;
+   }
+   .tech-stack h3 {
+      font-size: 28px;
+   }
+   .first-img {
+      margin: 75px 5px 70px 0px;
+   }
+   .first-img img,
+   .second-img img {
+      width: 85px;
+      height: 85px;
+   }
+   .second-img {
+      margin-right: 0;
+      margin-left: 5px;
+   }
+   .projects {
+      margin-top: 138px;
+   }
+   .projects h3 {
+      font-size: 30px;
+      margin-bottom: 65px;
+   }
+   .projects-list {
+      margin: 0;
+   }
+   .projects h3 {
+      font-size: 27px;
+      margin-bottom: 22px;
+   }
+   .projects-text p {
+      font-size: 16px;
+      margin: 0 20px 9px;
+   }
+   .projects-block {
+      width: 346px;
+      height: 530px;
+   }
+   .projects-img img {
+      width: 346px;
+      height: 246px;
+   }
+   .projects-text a {
+      padding-right: 13px;
+      font-size: 14px;
+    }
+    .info {
+      margin-top: 81px;
+    }
+    .info h2 {
+      font-size: 48px;
+    }
+    .info-mail {
+      margin: 0px 36% 12%;
+    }
+    .info a {
+      font-size: 50px;
+    }
+    footer {
+      padding: 27px 25px 0 46px;
+    }
+    .footer-top {
+      padding-bottom: 8px;
+    }
+    .footer-item {
+      font-size: 14px;
+      gap: 18px;
+    }
+    .footer-bottom p {
+      font-size: 14px;
+    }
+    .footer-top .tel {
+      padding-left: 166px;
+      font-size: 14px;
+    }
+    .footer-top .mail {
+        font-size: 14px;
+    }
 }
