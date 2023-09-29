@@ -628,6 +628,229 @@ footer {
   }
 }
 @media (max-width:665px) {
- 
-
+  .header-nav {
+    display: block;
+  }
+  header img, footer img {
+    width: 85px;
+    height: 55px;
+    margin-left: 40px;
+  }
+  .header-item {
+    font-size: 15px;
+    gap: 20px;
+    margin-left: 0px;
+  }
+  .header-social {
+    gap: 44px;
+  }
+  .greeting {
+    display: block;
+    margin: 250px 0 70px 86px;
+  }
+  .greeting-text {
+    font-size: 40px;
+    margin-bottom: 27px;
+ }
+ .greeting-foto {
+    margin-left: 16%;
+ }
+ .greeting-foto img {
+    width: 300px;
+    height: 300px;
+  }
+  .about {
+    margin: 0 15px;
+  }
+  h2 {
+    text-align: center;
+    font-size: 38px;
+  }
+  p {
+    font-size: 14px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  .about-work-adress, 
+  .about-education-adress {
+    font-size: 9px;
+    margin-top: 0px;
+  }
+  .about-work-all, 
+  .about-education-all {
+    padding-bottom: 7px;
+    margin-bottom: 7px;
+  }
+  .tech-stack {
+    margin-top: 86px;
+  }
+  .tech-stack h2 {
+    font-size: 38px;
+  }
+  .tech-stack h3 {
+    font-size: 18px;
+  }
+  .first-img,
+  .second-img {
+      display: block;
+      column-count: 3;
+      margin: 25px 0 0 55px;
+    }
+  .first-img img, 
+  .second-img img {
+    width: 85px;
+    height: 85px;
+    margin-bottom: 17px;
+  }
+  .projects {
+    margin-top: 82px;
+  }
+  .projects h2 {
+    font-size: 38px;
+    margin-bottom: 30px;
+  }
+  .projects h3 {
+    font-size: 20px;
+    margin-bottom: 27px;
+  }
+  .info {
+    margin-top: 30px;
+  }
+  .info h2 {
+    font-size: 30px;
+  }
+  .info a {
+    font-size: 32px;
+  }
+  .info-mail {
+    margin: 0px 32% 10%;
+  }
+  .footer-top {
+    display: block;
+    column-count: 1;
+  }
+  .footer-top .tel {
+    padding-left: 14%;
+    font-size: 12px;
+  }
+  .footer-top .mail {
+    font-size: 12px;
+    padding-left: 14%;
+  }
+  .footer-social {
+    gap: 85px;
+    margin-left: 37%;
+  }
+  .footer-bottom {
+    display: block;
+  }
+}
+@media (max-width:567px) {
+  .greeting-foto {
+    margin-left: 11%;
+  }
+  .info h2 {
+    font-size: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .info-mail {
+    margin: 0px 30% 10%;
+  }
+  footer img {
+    margin-left: 6%;
+  }
+  .footer-top .tel {
+    padding-left: 0;
+    margin-left: 10%;
+  }
+  .footer-top .mail {
+    padding-left: 0;
+    margin-left: 17%;
+  }
+  .footer-social {
+    gap: 44px;
+    margin-left: 0;
+  }
+  .footer-top .tel {
+    margin-left: 7%;
+    display: block;
+  }
+  .footer-bottom {
+    margin-left: 7%;
+  }
+  .footer-top .mail {
+    padding-left: 0;
+    margin-left: 7%;
+  }
+}
+@media (max-width:470px) {
+  header {
+    padding: 27px 0 0 0;
+  }
+  .header-item {
+    font-size: 12px;
+    gap: 20px;
+  }
+  .greeting {
+    margin: 250px 0 70px 25px;
+  }
+  .greeting-text {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 34px;
+  }
+  h3 {
+    font-size: 12px;
+  }
+  .tech-stack h2 {
+    font-size: 34px;
+  }
+  .tech-stack h3 {
+    font-size: 15px;
+  }
+  .first-img img, 
+  .second-img img {
+    width: 75px;
+    height: 75px;
+  }
+  .projects {
+    margin-top: 68px;
+  }
+  .projects h2 {
+    font-size: 35px;
+  }
+  .projects h3 {
+    font-size: 17px;
+  }
+  .projects-block {
+    width: 325px;
+    height: 457px;
+  }
+  .projects-img img {
+    width: 325px;
+    height: 222px;
+  }
+  .projects-text p {
+    font-size: 12px;
+    margin: 0px 24px 14px;
+  }
+  .projects-text a {
+    padding-right: 13px;
+    font-size: 12px;
+  }
+  .info h2 {
+    font-size: 26px;
+  }
+  .info a {
+    font-size: 25px;
+  }
+  .info-mail {
+    margin: 0px 33% 10%;
+  }
+  footer {
+    padding: 27px 0 0 0;
+  }
 }
