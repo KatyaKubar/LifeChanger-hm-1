@@ -62,7 +62,7 @@ header {
 .header-social,
 .footer-social {
     gap: 20px;
-    margin: 12px;
+    /*margin: 12px;*/
 }
 .header-social a,
 .footer-social a {
@@ -501,4 +501,133 @@ footer {
     .footer-top .mail {
         font-size: 14px;
     }
+}
+@media (max-width:790px) {
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 16px;
+  }
+  header img, 
+  footer img {
+    width: 75px;
+    height: 45px;
+  }
+  .header-item {
+    font-size: 15px;
+    gap: 10px;
+    margin-left: 18px;
+  }
+  .header-social, 
+  .footer-social {
+    gap: 10px;
+  }
+  .greeting {
+    margin-top: 206px;
+  }
+  .greeting-text {
+    font-size: 36px;
+  }
+  .greeting-foto img {
+    width: 200px;
+    height: 200px;
+  }
+  .about {
+    margin: 89px 62px 0 36px;
+  }
+  .about-work-all, 
+  .about-education-all {
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+  }
+  .about-work-position p, 
+  .about-education-position p {
+    font-size: 8px;
+    width: 76px;
+    height: 22px;
+  }
+  .about-work-adress, 
+  .about-education-adress {
+    font-size: 10px;
+    margin-top: -5px;
+  }
+  .tech-stack {
+    margin-top: 120px;
+  }
+  .tech-stack h2 {
+    font-size: 40px;
+  }
+  .tech-stack h3 {
+    font-size: 22px;
+  }
+  .first-img {
+    margin: 75px 0 70px 0;
+  }
+  .first-img img, 
+  .second-img img {
+    width: 75px;
+    height: 75px;
+  }
+  .second-img {
+    margin-left: 0;
+  }
+  .projects {
+    margin-top: 109px;
+  }
+  .projects h2 {
+    font-size: 40px;
+  }
+  .projects h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .projects-block {
+    width: 338px;
+    height: 516px;
+  }
+  .projects-img img {
+    width: 338px;
+    height: 236px;
+  }
+  .projects-text p {
+    font-size: 15px;
+    margin: 0px 13px 15px;
+  }
+  .info h2 {
+    font-size: 40px;
+  }
+  .info-mail {
+    margin: 0px 31% 10%;
+  }
+  .info a {
+    font-size: 43px;
+  }
+  .footer-top .tel {
+    padding-left: 105px;
+    font-size: 12px;
+  }
+  .footer-top .mail {
+    font-size: 12px;
+  }
+  .footer-top {
+    padding-bottom: 5px;
+  }
+  .footer-bottom {
+    margin-top: 5px;
+  }
+  .footer-item {
+    font-size: 12px;
+    gap: 10px;
+  }
+  .footer-bottom p {
+    font-size: 12px;
+  }
+}
+@media (max-width:665px) {
+ 
+
 }
