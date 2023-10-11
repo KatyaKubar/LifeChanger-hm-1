@@ -1,5 +1,5 @@
 // Получаем кнопку переключения темы
-const themeToggleBtn = document.querySelector(".theme-toggle-btn");
+const themeToggleBtn = document.querySelector(".toggle--checkbox");
 
 // Слушатель события клика на кнопке
 themeToggleBtn.addEventListener("click", () => {
