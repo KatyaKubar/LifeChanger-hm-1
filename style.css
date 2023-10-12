@@ -121,6 +121,7 @@ header {
 .toggle--daynight .toggle--checkbox:checked + .toggle--btn:after{opacity:100;animation-name:bounceIn;animation-duration:.6s;animation-delay:.1s;animation-fill-mode:backwards;animation-timing-function:ease-in-out}
 .toggle--daynight .toggle--checkbox:checked + .toggle--btn > .toggle--feature{opacity:0;box-shadow:rgba(255,255,255,0.1) 30px -3px 0 -4px,rgba(255,255,255,0.1) 12px 10px 0 -5px,#fff 38px 18px 0 -3px,rgba(255,255,255,0.1) 32px 34px 0 -4px,#fff 20px 24px 0 -5.5px,rgba(255,255,255,0.1) 5px 38px 0 -3px;animation:none}
 .toggle--daynight .toggle--checkbox:checked + .toggle--btn > .toggle--feature:before{left:25px;transform:rotate(70deg)}
+
 .greeting {
     display: flex;
     justify-content: space-around;
